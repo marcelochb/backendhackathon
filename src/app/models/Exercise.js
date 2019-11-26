@@ -12,6 +12,7 @@ class Exercise extends Model {
       },
       {
         sequelize,
+        tableName: 'Exercises'
       }
     );
     return this;
